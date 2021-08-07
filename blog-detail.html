@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Eventro - Blog Detail</title>
+	<link rel="stylesheet" href="css/css-bootstrap.min.css">
+	<link rel="stylesheet" href="css/eventro-style.css">
+	<link rel="stylesheet" href="css/css-responsive.css">
+	<link rel="stylesheet" href="css/css-icons.css">
+	<link rel="stylesheet" href="css/css-fontawesome.min.css">
+	<link rel="stylesheet" href="css/css-colors.css">
+	<link rel="stylesheet" href="css/css-typography.css">
+	<link rel="stylesheet" href="css/css-owl.carousel.min.css">
+	<link rel="stylesheet" href="css/css-animate.css">
+	<link rel="stylesheet" href="css/css-hc-offcanvas-nav.css">
+	<!-- jQuery Nice Select -->
+	<link rel="stylesheet" href="css/css-nice-select.css">
+	<!-- Bootstrap DateTimePicker -->
+	<link rel="stylesheet" href="css/css-bootstrap-datetimepicker.min.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155204293-2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-155204293-2');
+	</script>
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="et-navbar navbar">
+		<a class="logo h6 mb-0" href="index.html"><img src="images/img-logo.png" alt="img"> Eventro</a>
+		<ul class="nostyle nav-links inline mr-lg-auto text-right text-lg-left flex-lg-grow-1 mb-0">
+			<li class="dropdown">
+				<a href="index.html">Home</a>
+				<ul class="submenu shadow">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index-2.html">Home 2</a></li>
+					<li><a href="index-3.html">Home 3</a></li>
+				</ul>
+			</li>
+			<li><a href="about.html">About</a></li>
+			<li class="dropdown">
+				<a href="#">Pages</a>
+				<ul class="submenu shadow">
+					<li><a href="pricing.html">Pricing</a></li>
+					<li><a href="404.html">404</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li class="dropdown">
+						<a href="#">Venues</a>
+						<ul class="submenu shadow">
+							<li><a href="our-venues.html">Our Venues</a></li>
+							<li><a href="venue-detail.html">Venue Detail</a></li>
+						</ul>
+					</li>
+					<li><a href="contact.html">Contact</a></li>
+					<li class="dropdown">
+						<a href="#">Speakers</a>
+						<ul class="submenu shadow">
+							<li><a href="speaker.html">Speakers Style 1</a></li>
+							<li><a href="speaker-2.html">Speakers Style 2</a></li>
+							<li><a href="speaker-profile.html">Speaker Profile</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="dropdown">
+				<a href="search.html">Search</a>
+				<ul class="submenu shadow">
+					<li><a href="search.html">Search Events</a></li>
+					<li><a href="search-map-right.html">Search Map Right</a></li>
+					<li><a href="search-map-top.html">Search Map Top</a></li>
+				</ul>
+			</li>
+			<li class="dropdown">
+				<a href="#">Events</a>
+				<ul class="submenu shadow">
+					<li><a href="add-event.html">Add Events</a></li>
+					<li><a href="event-detail.html">Event Detail</a></li>
+					<li><a href="event-calendar.html">Event Calendar</a></li>
+				</ul>
+			</li>
+			<li class="dropdown">
+				<a href="blog-grid.html">Blog</a>
+				<ul class="submenu shadow">
+					<li><a href="blog-grid.html">Blog Grid</a></li>
+					<li><a href="blog-detail.html">Blog Detail</a></li>
+				</ul>
+			</li>
+		</ul>
+		<div class="nav-actions ml-auto">
+			<a href="search.html"><i class="icon-search-2"></i> Search</a>
+			<a href="#" data-toggle="modal" data-target="#exampleModal"><i class="icon-login"></i> Login/Signup</a>
+			<a href="pricing.html" class="btn btn-primary border-0"><i class="icon-plus btn-icon"></i> Add Event</a>
+		</div>
+	</nav>
+
+	<!-- Mobile Menu -->
+	<nav id="et-mobile-nav">
+		<ul class="text-capitalize">
+			<li>
+				<a href="#">Home</a>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index-2.html">Home 2</a></li>
+					<li><a href="index-3.html">Home 3</a></li>
+				</ul>
+			</li>
+			<li><a href="about.html">About</a></li>
+			<li>
+				<a href="#">Pages</a>
+				<ul class="submenu">
+					<li><a href="pricing.html">Pricing</a></li>
+					<li><a href="404.html">404</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li class="dropdown">
+						<a href="#">Venues</a>
+						<ul class="submenu shadow">
+							<li><a href="our-venues.html">Our Venues</a></li>
+							<li><a href="venue-detail.html">Venue Detail</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#">Speakers</a>
+						<ul class="submenu shadow">
+							<li><a href="speaker.html">Speakers Style 1</a></li>
+							<li><a href="speaker-2.html">Speakers Style 2</a></li>
+							<li><a href="speaker-profile.html">Speaker Profile</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="search.html">Search</a>
+				<ul class="submenu shadow">
+					<li><a href="search.html">Search Events</a></li>
+					<li><a href="search-map-right.html">Search Map Right</a></li>
+					<li><a href="search-map-top.html">Search Map Top</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Events</a>
+				<ul class="submenu shadow">
+					<li><a href="add-event.html">Add Events</a></li>
+					<li><a href="event-detail.html">Event Detail</a></li>
+					<li><a href="event-calendar.html">Event Calendar</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Blog</a>
+				<ul>
+					<li><a href="blog-grid.html">Blog Grid</a></li>
+					<li><a href="blog-detail.html">Blog Detail</a></li>
+				</ul>
+			</li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+	<!-- Page Header -->
+	<section id="et-pagehead" class="container-fluid text-center text-white img-overlay no-hover position-relative pt-5 pb-5">
+		<div class="container position-relative pt-5 pb-5 mt-5 mb-5">
+			<h2 class="text-white">The recorded voice scratched in the speaker</h2>
+			<ul class="nostyle inline p-0 m-0">
+				<li><i class="icon-clock text-primary"></i>&nbsp; 29 Feb, 2020</li>
+				<li><i class="fas fa-comment-dots text-primary"></i>&nbsp; 20 Comments</li>
+				<li><i class="fas fa-share-alt text-primary"></i>&nbsp; 10 Shares</li>
+				<li><i class="fas fa-heart text-primary"></i>&nbsp; 30 Likes</li>
+			</ul>
+		</div>
+		<div class="breadcrumb position-absolute text-center m-0 justify-content-center bg-transparent text-white">
+			<a href="#" class="text-white d-inline-block p-2">Home</a>
+			<a href="#" class="text-white d-inline-block p-2">Blog Detail</a>
+		</div>
+	</section>
+
+	<!-- Content Area -->
+	<section id="et-content" class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<!-- Post detail -->
+					<div class="post-detail shadow rounded p-4 content-box">
+						<div class="post-thumbnail img-overlay no-hover position-relative">
+							<img src="images/img-post-detail.jpg" class="img-fluid" alt="blog">
+							<span class="badge badge-primary pointer border-0 transition font-weight-normal social-share position-absolute">
+								<i class="icon-share"></i> Share
+									<span class="social-icons transition shadow p-2 rounded-pill position-absolute bg-white">
+										<a href="#">
+											<i class="fab fa-facebook" aria-hidden="true"></i>
+										</a>
+										<a href="#">
+											<i class="fab fa-google" aria-hidden="true"></i>
+										</a>
+										<a href="#">
+											<i class="fab fa-instagram" aria-hidden="true"></i>
+										</a>
+										<a href="#">
+											<i class="fab fa-youtube" aria-hidden="true"></i>
+										</a>
+										<a href="#">
+											<i class="fab fa-linkedin" aria-hidden="true"></i>
+										</a>
+									</span>
+							</span>
+							<h6 class="mb-4 title text-white font-weight-bold position-absolute">The face of the moon was in shadow.</h6>
+							<span class="author-avatar overflow-hidden position-absolute shadow rounded-pill"><img src="images/img-author-1.jpg" class="w-100" alt="Author"></span>
+						</div>
+						<div class="post-meta">
+							<ul class="nostyle inline pl-0 pt-3 pb-3 m-0">
+								<li class="pr-4"><i class="icon-tag text-primary"></i>&nbsp; Tips and lifestyle</li>
+								<li class="pr-4"><i class="icon-user text-primary"></i>&nbsp; By <a href="#" class="text-primary">Jason Stuart</a></li>
+							</ul>
+						</div>
+						<hr class="mt-0">
+						<p class="description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<blockquote>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</blockquote>
+						<hr>
+						<h4>A shining crescent far beneath the flying vessel.</h4>
+						<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+						<h6>We designed this Tribeca loft as a home, work space.</h6>
+						<ol class="mt-4">
+							<li>We designed this Tribeca loft as a home, work space.</li>
+							<li>That space serves as a hinge for</li>
+							<li>That space serves as a hinge</li>
+							<li>Gallery for a photographer.</li>
+						</ol>
+						<hr>
+						<h1>h1. Heading</h1>
+						<h2>h2. Heading</h2>
+						<h3>h3. Heading</h3>
+						<h4>h4. Heading</h4>
+						<h5>h5. Heading</h5>
+						<h6>h6. Heading</h6>
+						<hr>
+						<div class="post-tags">
+							<label>Tags:</label>
+							<a href="#" class="rounded-pill border">London</a>
+							<a href="#" class="rounded-pill border">Foodies</a>
+							<a href="#" class="rounded-pill border">Lifestyle</a>
+							<a href="#" class="rounded-pill border">Travel</a>
+							<a href="#" class="rounded-pill border">Workshop</a>
+							<a href="#" class="rounded-pill border">History</a>
+							<a href="#" class="rounded-pill border">Job Fair</a>
+						</div>
+						<hr>
+						<!-- Gallery -->
+						<div class="gallery-mason content-box mt-5">
+							<h6 class="mb-4 font-weight-bold">Gallery</h6>
+							<i class="icon-download prev pointer"></i>
+							<i class="icon-download next pointer"></i>
+							<div class="mason-container">
+								<div class="image-box"><img src="images/21-800" alt="img"></div>
+								<div class="vertical image-box"><img src="images/800-1000" alt="img"></div>
+								<div class="horizontal image-box"><img src="images/1400-800" alt="img"></div>
+								<div class="big image-box"><img src="images/26-800" alt="img"></div>
+								<div class="image-box"><img src="images/25-800" alt="img"></div>
+								<div class="image-box"><img src="images/24-800" alt="img"></div>
+								<div class="image-box"><img src="images/27-800" alt="img"></div>
+							</div>
+						</div>
+						<hr>
+						<div class="post-nav d-flex justify-content-between">
+							<a href="#" class="text-decoration-none d-inline-flex flex-wrap align-items-center prev">
+								<i class="icon-download d-none d-sm-inline-flex bg-white align-items-center justify-content-center shadow rounded-pill"></i>
+								<div class="pl-3">
+									<span class="text-muted small">Previous post</span>
+									<span class="h6 d-block">Travel guide for you!</span>
+								</div>
+							</a>
+							<a href="#" class="text-decoration-none text-right d-inline-flex flex-wrap flex-row-reverse align-items-center next">
+								<i class="icon-download d-none d-sm-inline-flex bg-white align-items-center justify-content-center shadow rounded-pill"></i>
+								<div class="pr-3">
+									<span class="text-muted small">Next post</span>
+									<span class="h6 d-block">Guide for your next business</span>
+								</div>
+							</a>
+						</div>
+						<hr>
+
+						<!-- Customer Reviews -->
+						<div class="event-reviews content-box mt-5">
+							<h4 class="mb-4 font-weight-bold">Reviews</h4>
+							<!-- Comments -->
+							<div class="post-comments">
+								<!-- Comment -->
+								<div class="user-comment border-bottom pb-1 mb-3">
+									<div class="d-md-flex d-sm-block mb-2">
+										<div class="commenter-thumbnail">
+											<img src="images/img-userthumb.jpg" alt="comment" class="img-fluid rounded-pill">
+										</div>
+										<div class="comment-content">
+											<h6>Joseph Bellistor - <span class="text-muted review-date small">26 Jun 2019 02:15</span> <i class="report-comment ml-3 pointer float-right text-muted fa fa-flag" data-toggle="tooltip" data-placement="top" title="Report"></i> <i class="reply-trigger pointer float-right text-muted fa fa-reply" data-toggle="tooltip" data-placement="top" title="Reply"></i></h6>
+											<div class="star-rating d-inline-block mb-2">
+												<i class="fa fa-star align-middle checked"></i>
+												<i class="fa fa-star align-middle checked"></i>
+												<i class="fa fa-star align-middle checked"></i>
+												<i class="fa fa-star align-middle"></i>
+												<i class="fa fa-star align-middle"></i>
+											</div>
+											<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+											<div class="product-shots lightbox">
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /Comment -->
+
+								<!-- Comment -->
+								<div class="user-comment border-bottom pb-1 mb-3">
+									<div class="d-md-flex d-sm-block mb-2">
+										<div class="commenter-thumbnail">
+											<img src="images/img-userthumb.jpg" alt="comment" class="img-fluid rounded-pill">
+										</div>
+										<div class="comment-content">
+											<h6>Joseph Bellistor - <span class="text-muted review-date small">26 Jun 2019 02:15</span> <i class="report-comment ml-3 pointer float-right text-muted fa fa-flag" data-toggle="tooltip" data-placement="top" title="Report"></i> <i class="reply-trigger pointer float-right text-muted fa fa-reply" data-toggle="tooltip" data-placement="top" title="Reply"></i></h6>
+											<div class="star-rating d-inline-block mb-2">
+												<i class="fa fa-star align-middle checked"></i>
+												<i class="fa fa-star align-middle checked"></i>
+												<i class="fa fa-star align-middle checked"></i>
+												<i class="fa fa-star align-middle"></i>
+												<i class="fa fa-star align-middle"></i>
+											</div>
+											<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+											<div class="product-shots lightbox">
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+											</div>
+										</div>
+									</div>
+									<!-- Reply -->
+									<div class="user-comment border-bottom mt-4 pb-1 mb-3">
+										<div class="d-md-flex d-sm-block mb-2">
+											<div class="commenter-thumbnail">
+												<img src="images/img-userthumb.jpg" alt="comment" class="img-fluid rounded-pill">
+											</div>
+											<div class="comment-content">
+												<h6>Joseph Bellistor - <span class="text-muted review-date small">26 Jun 2019 02:15</span> <i class="report-comment ml-3 pointer float-right text-muted fa fa-flag" data-toggle="tooltip" data-placement="top" title="Report"></i> <i class="reply-trigger pointer float-right text-muted fa fa-reply" data-toggle="tooltip" data-placement="top" title="Reply"></i></h6>
+												<div class="star-rating d-inline-block mb-2">
+													<i class="fa fa-star align-middle checked"></i>
+													<i class="fa fa-star align-middle checked"></i>
+													<i class="fa fa-star align-middle checked"></i>
+													<i class="fa fa-star align-middle"></i>
+													<i class="fa fa-star align-middle"></i>
+												</div>
+												<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+												<div class="product-shots lightbox">
+													<a href="img/post-1.jpg" title="Caption for gallery item 3">
+														<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+													</a>
+													<a href="img/post-1.jpg" title="Caption for gallery item 3">
+														<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+													</a>
+													<a href="img/post-1.jpg" title="Caption for gallery item 3">
+														<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+													</a>
+													<a href="img/post-1.jpg" title="Caption for gallery item 3">
+														<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+													</a>
+													<a href="img/post-1.jpg" title="Caption for gallery item 3">
+														<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- /Reply -->
+
+									<!-- Reply -->
+									<div class="user-comment mt-4 pb-1">
+										<div class="d-md-flex d-sm-block mb-2">
+											<div class="commenter-thumbnail">
+												<img src="images/img-userthumb.jpg" alt="comment" class="img-fluid rounded-pill">
+											</div>
+											<div class="comment-content">
+												<h6>Joseph Bellistor - <span class="text-muted review-date small">26 Jun 2019 02:15</span> <i class="report-comment ml-3 pointer float-right text-muted fa fa-flag" data-toggle="tooltip" data-placement="top" title="Report"></i> <i class="reply-trigger pointer float-right text-muted fa fa-reply" data-toggle="tooltip" data-placement="top" title="Reply"></i></h6>
+												<div class="star-rating d-inline-block mb-2">
+													<i class="fa fa-star align-middle checked"></i>
+													<i class="fa fa-star align-middle checked"></i>
+													<i class="fa fa-star align-middle checked"></i>
+													<i class="fa fa-star align-middle"></i>
+													<i class="fa fa-star align-middle"></i>
+												</div>
+												<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+												<div class="product-shots lightbox">
+													<a href="img/post-1.jpg" title="Caption for gallery item 3">
+														<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+													</a>
+													<a href="img/post-1.jpg" title="Caption for gallery item 3">
+														<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+													</a>
+													<a href="img/post-1.jpg" title="Caption for gallery item 3">
+														<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+													</a>
+													<a href="img/post-1.jpg" title="Caption for gallery item 3">
+														<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+													</a>
+													<a href="img/post-1.jpg" title="Caption for gallery item 3">
+														<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- /Reply -->
+								</div>
+								<!-- /Comment -->
+
+								<!-- Comment -->
+								<div class="user-comment border-bottom pb-1 mb-3">
+									<div class="d-md-flex d-sm-block mb-2">
+										<div class="commenter-thumbnail">
+											<img src="images/img-userthumb.jpg" alt="comment" class="img-fluid rounded-pill">
+										</div>
+										<div class="comment-content">
+											<h6>Joseph Bellistor - <span class="text-muted review-date small">26 Jun 2019 02:15</span> <i class="report-comment ml-3 pointer float-right text-muted fa fa-flag" data-toggle="tooltip" data-placement="top" title="Report"></i> <i class="reply-trigger pointer float-right text-muted fa fa-reply" data-toggle="tooltip" data-placement="top" title="Reply"></i></h6>
+											<div class="star-rating d-inline-block mb-2">
+												<i class="fa fa-star align-middle checked"></i>
+												<i class="fa fa-star align-middle checked"></i>
+												<i class="fa fa-star align-middle checked"></i>
+												<i class="fa fa-star align-middle"></i>
+												<i class="fa fa-star align-middle"></i>
+											</div>
+											<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+											<div class="product-shots lightbox">
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /Comment -->
+
+								<!-- Comment -->
+								<div class="user-comment border-bottom pb-1 mb-3">
+									<div class="d-md-flex d-sm-block mb-2">
+										<div class="commenter-thumbnail">
+											<img src="images/img-userthumb.jpg" alt="comment" class="img-fluid rounded-pill">
+										</div>
+										<div class="comment-content">
+											<h6>Joseph Bellistor - <span class="text-muted review-date small">26 Jun 2019 02:15</span> <i class="report-comment ml-3 pointer float-right text-muted fa fa-flag" data-toggle="tooltip" data-placement="top" title="Report"></i> <i class="reply-trigger pointer float-right text-muted fa fa-reply" data-toggle="tooltip" data-placement="top" title="Reply"></i></h6>
+											<div class="star-rating d-inline-block mb-2">
+												<i class="fa fa-star align-middle checked"></i>
+												<i class="fa fa-star align-middle checked"></i>
+												<i class="fa fa-star align-middle checked"></i>
+												<i class="fa fa-star align-middle"></i>
+												<i class="fa fa-star align-middle"></i>
+											</div>
+											<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+											<div class="product-shots lightbox">
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /Comment -->
+
+								<!-- Comment -->
+								<div class="user-comment">
+									<div class="d-md-flex d-sm-block mb-2">
+										<div class="commenter-thumbnail">
+											<img src="images/img-userthumb.jpg" alt="comment" class="img-fluid rounded-pill">
+										</div>
+										<div class="comment-content">
+											<h6>Joseph Bellistor - <span class="text-muted review-date small">26 Jun 2019 02:15</span> <i class="report-comment ml-3 pointer float-right text-muted fa fa-flag" data-toggle="tooltip" data-placement="top" title="Report"></i> <i class="reply-trigger pointer float-right text-muted fa fa-reply" data-toggle="tooltip" data-placement="top" title="Reply"></i></h6>
+											<div class="star-rating d-inline-block mb-2">
+												<i class="fa fa-star align-middle checked"></i>
+												<i class="fa fa-star align-middle checked"></i>
+												<i class="fa fa-star align-middle checked"></i>
+												<i class="fa fa-star align-middle"></i>
+												<i class="fa fa-star align-middle"></i>
+											</div>
+											<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+											<div class="product-shots lightbox">
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+												<a href="img/post-1.jpg" title="Caption for gallery item 3">
+													<img src="images/img-post-1.jpg" width="50" alt="img" class="img-fluid mb-2 mr-2">
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<hr>
+								<!-- /Comment -->
+								<a href="#" class="d-block text-center text-primary">View more</a>
+							</div>
+							<!-- /Comments -->
+						</div>
+
+						<!-- Comment form -->
+						<div class="event-comment-form content-box mt-5">
+							<h4 class="mb-4 font-weight-bold">Share your views</h4>
+							<div class="post-comment-form">
+								<form autocomplete="off">
+									<div class="row">
+										<div class="form-group col-md-12 col-sm-12">
+											<div class="fake-file-upload rounded-pill transition-1 d-flex align-items-center justify-content-center p-3 text-center text-muted position-relative">
+												<input type="file" name="file_upload" class="position-absolute pointer" multiple>
+												<i class="fas fa-cloud-upload-alt h3 m-0"></i>&nbsp; Choose images
+											</div>
+										</div>
+										<div class="form-group col-md-6 col-sm-12">
+											<input type="text" class="form-control bg-light" placeholder="Name" name="name">
+										</div>
+										<div class="form-group col-md-6 col-sm-12">
+											<input type="text" class="form-control bg-light" placeholder="Email address" name="email">
+										</div>
+										<div class="form-group col-sm-12">
+											<textarea rows="6" class="form-control resize-none bg-light" placeholder="Type your comment" name="comment"></textarea>
+										</div>
+									</div>
+									<div class="text-center">
+										<div class="position-relative border-0 mt-md-0 mt-3 btn btn-primary submit-btn">
+											<i class="icon-login btn-icon input-icon"></i> Submit Review
+											<input type="submit" class="h-100 w-100 position-absolute" value="Submit Review">
+										</div>
+									</div>
+								</form>
+							</div>
+							<!-- /Comment form -->
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="et-sidebar">
+						<!-- Search -->
+						<div class="side-widget w-100 search shadow rounded p-4">
+							<h4 class="box-heading mb-5 position-relative mb-0">Search</h4>
+							<form action="/" method="post">
+								<div class="form-group">
+									<div class="input-group datetimepicker">
+										<input placeholder="Search" class="form-control bg-light" type="text">
+										<div class="input-group-append">
+											<a href="#" class="input-group-text text-decoration-none transition bg-primary border-0 text-white">
+												<i class="icon-search-2"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+
+						<!-- About Author -->
+						<div class="side-widget w-100 about-author shadow rounded p-4 mt-5">
+							<h4 class="box-heading mb-5 position-relative mb-0">About Author</h4>
+							<div class="text-center">
+								<div class="author-thumbnail m-auto shadow rounded-pill overflow-hidden">
+									<img src="images/img-userthumb.jpg" alt="comment" class="img-fluid rounded-pill">
+								</div>
+								<h6 class="mt-3">Steium Glent</h6>
+								<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<hr>
+								<ul class="social d-inline-block m-0 nostyle inline p-0">
+									<li><a href="#" class="d-flex align-items-center justify-content-center border text-decoration-none transition"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="d-flex align-items-center justify-content-center border text-decoration-none transition"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="d-flex align-items-center justify-content-center border text-decoration-none transition"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="d-flex align-items-center justify-content-center border text-decoration-none transition"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="d-flex align-items-center justify-content-center border text-decoration-none transition"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Categories -->
+						<div class="side-widget w-100 categories shadow rounded p-4 mt-5">
+							<h4 class="box-heading mb-5 position-relative mb-0">Categories</h4>
+							<ul class="p-0 nostyle">
+								<li class="mb-3"><a href="#" class="text-decoration-none d-block"><i class="fas fa-angle-right"></i>&nbsp; Creative</a></li>
+								<li class="mb-3"><a href="#" class="text-decoration-none d-block"><i class="fas fa-angle-right"></i>&nbsp; Web Design</a></li>
+								<li class="mb-3"><a href="#" class="text-decoration-none d-block"><i class="fas fa-angle-right"></i>&nbsp; Gallery</a></li>
+								<li class="mb-3"><a href="#" class="text-decoration-none d-block"><i class="fas fa-angle-right"></i>&nbsp; Personal Life</a></li>
+								<li class="mb-3"><a href="#" class="text-decoration-none d-block"><i class="fas fa-angle-right"></i>&nbsp; Lifestyle</a></li>
+							</ul>
+						</div>
+
+						<!-- Related Posts -->
+						<div class="side-widget w-100 related-news shadow rounded p-4 mt-5">
+							<h4 class="box-heading mb-5 position-relative mb-0">Related Posts</h4>
+							<div class="single-post position-relative mb-4 align-items-center d-flex">
+								<a href="#" class="post-picture rounded-pill img-overlay transition-1 card-border-radius overflow-hidden position-relative">
+									<img src="images/img-related-news-1.jpg" class="img-fluid" alt="news">
+								</a>
+								<div class="post-data pl-2">
+									<p class="mb-0 text-body"><a class="text-decoration-none text-reset title transition-1" href="#">Travel guide for you!</a></p>
+									<small class="text-muted"><i class="fa fa-clock"></i> Posted 10 minutes ago</small>
+								</div>
+							</div>
+							<div class="single-post position-relative mb-4 align-items-center d-flex">
+								<a href="#" class="post-picture rounded-pill img-overlay transition-1 card-border-radius overflow-hidden position-relative">
+									<img src="images/img-related-news-2.jpg" class="img-fluid" alt="news">
+								</a>
+								<div class="post-data pl-2">
+									<p class="mb-0 text-body"><a class="text-decoration-none text-reset title transition-1" href="#">All their equipment and...</a></p>
+									<small class="text-muted"><i class="fa fa-clock"></i> Posted 3 days ago</small>
+								</div>
+							</div>
+							<div class="single-post position-relative mb-4 align-items-center d-flex">
+								<a href="#" class="post-picture rounded-pill img-overlay transition-1 card-border-radius overflow-hidden position-relative">
+									<img src="images/img-related-news-3.jpg" class="img-fluid" alt="news">
+								</a>
+								<div class="post-data pl-2">
+									<p class="mb-0 text-body"><a class="text-decoration-none text-reset title transition-1" href="#">A red flare silhouetted the...</a></p>
+									<small class="text-muted"><i class="fa fa-clock"></i> Just posted</small>
+								</div>
+							</div>
+							<div class="single-post position-relative mb-4 align-items-center d-flex">
+								<a href="#" class="post-picture rounded-pill img-overlay transition-1 card-border-radius overflow-hidden position-relative">
+									<img src="images/img-related-news-4.jpg" class="img-fluid" alt="news">
+								</a>
+								<div class="post-data pl-2">
+									<p class="mb-0 text-body"><a class="text-decoration-none text-reset title transition-1" href="#">A shining crescent far...</a></p>
+									<small class="text-muted"><i class="fa fa-clock"></i> Posted few days ago</small>
+								</div>
+							</div>
+						</div>
+
+						<!-- Archive -->
+						<div class="side-widget w-100 categories shadow rounded p-4 mt-5">
+							<h4 class="box-heading mb-5 position-relative mb-0">Archive</h4>
+							<ul class="p-0 nostyle">
+								<li class="mb-3"><a href="#" class="text-decoration-none d-block"><i class="fas fa-angle-right"></i>&nbsp; February 2019</a></li>
+								<li class="mb-3"><a href="#" class="text-decoration-none d-block"><i class="fas fa-angle-right"></i>&nbsp; March 2019</a></li>
+								<li class="mb-3"><a href="#" class="text-decoration-none d-block"><i class="fas fa-angle-right"></i>&nbsp; April 2019</a></li>
+								<li class="mb-3"><a href="#" class="text-decoration-none d-block"><i class="fas fa-angle-right"></i>&nbsp; May 2019</a></li>
+								<li class="mb-3"><a href="#" class="text-decoration-none d-block"><i class="fas fa-angle-right"></i>&nbsp; June 2019</a></li>
+							</ul>
+						</div>
+
+						<!-- Twitter Feed -->
+						<div class="side-widget position-relative w-100 twitter shadow rounded p-4 mt-5">
+							<h4 class="box-heading mb-5 position-relative mb-0">Twitter Feed</h4>
+							<a href="#" class="twitter-follow badge badge-twitter text-white position-absolute border-0 font-weight-normal"><i class="fab fa-twitter"></i> Follow</a>
+							<ul class="nostyle m-0 p-0">
+								<li>
+									<i class="fab fa-twitter tweet-icon"></i> <span class="h6">Twitter</span> <small class="text-muted">@twitter</small>
+									<small class="float-right text-muted">Sep 8</small>
+									<p class="description mb-0 mt-2">Lorem ipsum dolor <a href="#" class="text-primary">sit amet</a>, consectetur adipisicing elit.</p>
+									<hr>
+								</li>
+								<li>
+									<i class="fab fa-twitter tweet-icon"></i> <span class="h6">Twitter</span> <small class="text-muted">@twitter</small>
+									<small class="float-right text-muted">Sep 8</small>
+									<p class="description mb-0 mt-2">Lorem ipsum dolor <a href="#" class="text-primary">sit amet</a>, consectetur adipisicing elit.</p>
+									<hr>
+								</li>
+								<li>
+									<i class="fab fa-twitter tweet-icon"></i> <span class="h6">Twitter</span> <small class="text-muted">@twitter</small>
+									<small class="float-right text-muted">Sep 8</small>
+									<p class="description mb-0 mt-2">Lorem ipsum dolor <a href="#" class="text-primary">sit amet</a>, consectetur adipisicing elit.</p>
+								</li>
+							</ul>
+						</div>
+
+						<!-- Advert -->
+						<div class="side-widget w-100 advert shadow rounded p-4 mt-5">
+							<h4 class="box-heading mb-5 position-relative mb-0">Advertisement</h4>
+							<a href="#"><img src="images/img-advert.jpg" class="img-fluid" alt="ad"></a>
+						</div>
+
+						<!-- Instagram -->
+						<div class="side-widget w-100 instagram shadow rounded p-4 mt-5">
+							<h4 class="box-heading mb-5 position-relative mb-0">Instagram</h4>
+							<a href="#" class="d-inline-block img-overlay position-relative w-25 mr-2 mb-2 hover-zoomin transition-1"><img src="images/img-popular-event-1.jpg" class="img-fluid card-border-radius shadow" alt="img"></a>
+							<a href="#" class="d-inline-block img-overlay position-relative w-25 mr-2 mb-2 hover-zoomin transition-1"><img src="images/img-popular-event-2.jpg" class="img-fluid card-border-radius shadow" alt="img"></a>
+							<a href="#" class="d-inline-block img-overlay position-relative w-25 mr-2 mb-2 hover-zoomin transition-1"><img src="images/img-popular-event-3.jpg" class="img-fluid card-border-radius shadow" alt="img"></a>
+							<a href="#" class="d-inline-block img-overlay position-relative w-25 mr-2 mb-2 hover-zoomin transition-1"><img src="images/img-popular-event-4.jpg" class="img-fluid card-border-radius shadow" alt="img"></a>
+							<a href="#" class="d-inline-block img-overlay position-relative w-25 mr-2 mb-2 hover-zoomin transition-1"><img src="images/img-popular-event-1.jpg" class="img-fluid card-border-radius shadow" alt="img"></a>
+							<a href="#" class="d-inline-block img-overlay position-relative w-25 mr-2 mb-2 hover-zoomin transition-1"><img src="images/img-popular-event-3.jpg" class="img-fluid card-border-radius shadow" alt="img"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Subscribe -->
+		<section id="et-subscribe-form">
+				<div class="box-wrap img-overlay no-hover position-relative rounded shadow p-5 text-white">
+					<div class="container position-relative">
+						<h4 class="text-white">Get The Best Of All Hands Delivered To Your Inbox</h4>
+						<p>Subscribe to our newsletter and stay updated.</p>
+						<form class="d-md-flex">
+							<input type="text" class="form-control text-white mr-3 bg-transparent border-bottom d-inline-block subinput rounded-0" placeholder="Enter your email">
+							<div class="position-relative border-0 mt-md-0 mt-3 btn bg-white submit-btn">
+								<i class="icon-login btn-icon input-icon"></i> Subscribe
+								<input type="submit" class="h-100 w-100 position-absolute" value="Discover Now">
+							</div>
+						</form>
+					</div>
+				</div>
+		</section>
+
+		<footer id="et-site-footer" class="container-fluid position-relative bg-footer text-white pt-5 pb-2">
+			<div class="container">
+				<div class="row">
+					<!--About-->
+					<div class="col-md-3 about widget">
+						<a class="logo h6 mb-0 text-decoration-none text-white" href="#"><img src="images/img-logo.png" alt="img"> Eventro</a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+						<ul class="social nostyle inline text-white p-0">
+							<li class="mr-2"><a href="#" class="text-white d-block text-decoration-none transition"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+							<li class="mr-2"><a href="#" class="text-white d-block text-decoration-none transition"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+							<li class="mr-2"><a href="#" class="text-white d-block text-decoration-none transition"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+							<li class="mr-2"><a href="#" class="text-white d-block text-decoration-none transition"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+							<li class="mr-2"><a href="#" class="text-white d-block text-decoration-none transition"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<!--Contact-->
+					<div class="col-md-3 contact widget">
+						<h5>Contact Us</h5>
+						<ul class="nostyle text-white p-0">
+							<li class="mt-4 d-block"><i class="fas fa-envelope"></i>&nbsp; Eventro@event.com</li>
+							<li class="mt-4 d-block"><i class="fas fa-phone-alt"></i>&nbsp; (888)451-8908 - 341</li>
+							<li class="mt-4 d-block"><i class="fas fa-map-marker-alt"></i>&nbsp; Bell Str, P.O. Box 22484, Dallas, TX 75222-9785</li>
+						</ul>
+					</div>
+					<!--Navigation-->
+					<div class="col-md-3 navigation widget">
+						<h5>Navigation</h5>
+						<ul class="nostyle text-white p-0">
+							<li class="mt-4 d-block"><a href="#">Home</a></li>
+							<li class="mt-4 d-block"><a href="#">About us</a></li>
+							<li class="mt-4 d-block"><a href="#">What We Do</a></li>
+							<li class="mt-4 d-block"><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+
+					<!--Navigation-->
+					<div class="col-md-3 navigation widget">
+						<h5>Navigation</h5>
+						<ul class="nostyle text-white p-0">
+							<li class="mt-4 d-block"><a href="#">Terms &amp; conditions</a></li>
+							<li class="mt-4 d-block"><a href="#">Privacy policy</a></li>
+							<li class="mt-4 d-block"><a href="#">Cookies policy</a></li>
+							<li class="mt-4 d-block"><a href="#">Copyrights Policy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="et-bottom-bar pt-2 pb-2">
+			<div class="container">
+				<div class="row justify-content-md-left justify-content-center align-items-center">
+					<div class="partners">
+						<a href="#"><img src="images/img-partner-1.png" alt="partner"></a>
+						<a href="#"><img src="images/img-partner-2.png" alt="partner"></a>
+						<a href="#"><img src="images/img-partner-3.png" alt="partner"></a>
+					</div>
+					<div class="ml-sm-auto mt-3 mt-sm-0">
+						<p class="mb-0">Copyright &copy; 2020 - <a class="text-decoration-none text-reset" href="www.exactthemes.html">Exactthemes</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Login Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title w-100 text-center" id="exampleModalLabel">Login</h4>
+						<button type="button" class="close position-absolute rounded-pill bg-primary text-white" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body p-5">
+						<div class="social-signup text-center pb-25 pt-25">
+							<a class="text-body p-2 text-decoration-none" href="#"><i class="fab fa-google rounded-pill shadow text-white"></i> Sign in with Google</a>
+							<a class="text-body p-2 text-decoration-none" href="#"><i class="fab fa-facebook rounded-pill shadow text-white"></i> Sign in with Facebook</a>
+							<a class="text-body p-2 text-decoration-none" href="#"><i class="fab fa-twitter rounded-pill shadow text-white"></i> Sign in with Twitter</a>
+						</div>
+						<p class="or-sep">OR</p>
+						<form autocomplete="off">
+							<div class="form-group">
+								<input type="text" class="form-control bg-light" placeholder="Username/Email" name="user_email">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control bg-light" placeholder="Password" name="password">
+							</div>
+							<div class="form-group text-center mb-3 mt-4 check-types">
+								<label for="logincheck">
+									<input type="checkbox" id="logincheck">
+									<span class="cbx rounded-pill float-none d-inline-block align-middle">
+										<svg width="12px" height="11px" viewbox="0 0 12 11">
+											<polyline points="1 6.29411765 4.5 10 11 1"></polyline>
+										</svg>
+									</span>
+									<span class="float-none text-black-50">By signing up, you agree to our <a href="#" class="text-primary">Terms and conditions</a> and <a href="#" class="text-primary">Privacy policy.</a></span>
+								</label>
+							</div>
+							<div class="text-center">
+								<div class="position-relative border-0 mt-md-0 mt-3 btn btn-primary submit-btn">
+									<i class="icon-login btn-icon input-icon"></i> Login
+									<input type="submit" class="h-100 w-100 position-absolute" value="Submit Review">
+								</div>
+							</div>
+							<div class="text-center pt-25">
+								<p>Forgot password? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#resetPassword" class="text-primary">Reset now</a></p>
+								<p>Don't have an account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#signUpModal" class="text-primary">Sign up here</a></p>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Reset Password Modal -->
+		<div class="modal fade" id="resetPassword" tabindex="-1" role="dialog" aria-labelledby="resetPasswordModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title w-100 text-center" id="resetPasswordModalLabel">Reset Password</h4>
+						<button type="button" class="close position-absolute rounded-pill bg-primary text-white" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body p-5">
+						<form autocomplete="off">
+							<div class="form-group">
+								<input type="text" class="form-control bg-light" placeholder="Enter your email address" name="reset_email">
+							</div>
+							<div class="form-group text-center mb-3 mt-4 check-types">
+								<label for="resetcheck">
+									<input type="checkbox" id="resetcheck">
+									<span class="cbx rounded-pill float-none d-inline-block align-middle">
+										<svg width="12px" height="11px" viewbox="0 0 12 11">
+											<polyline points="1 6.29411765 4.5 10 11 1"></polyline>
+										</svg>
+									</span>
+									<span class="float-none text-black-50">I agree to your <a href="#" class="text-primary">Terms and conditions</a> and <a href="#" class="text-primary">Privacy policy.</a></span>
+								</label>
+							</div>
+							<div class="text-center">
+								<div class="position-relative border-0 mt-md-0 mt-3 btn btn-primary submit-btn">
+									<i class="icon-login btn-icon input-icon"></i> Proceed
+									<input type="submit" class="h-100 w-100 position-absolute" value="Submit Review">
+								</div>
+							</div>
+							<div class="text-center pt-25">
+								<p>Don't have an account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#signUpModal" class="text-primary">Create account now</a></p>
+								<p>Already have an account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#exampleModal" class="text-primary">Sign in here</a></p>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Signup Modal -->
+		<div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title w-100 text-center" id="signUpModalLabel">Create an account</h4>
+						<button type="button" class="close position-absolute rounded-pill bg-primary text-white" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body p-5">
+						<div class="social-signup text-center pb-25">
+							<a class="text-body p-2 text-decoration-none" href="#"><i class="fab fa-google rounded-pill shadow text-white"></i> Sign Up with Google</a>
+							<a class="text-body p-2 text-decoration-none" href="#"><i class="fab fa-facebook rounded-pill shadow text-white"></i> Sign Up with Facebook</a>
+							<a class="text-body p-2 text-decoration-none" href="#"><i class="fab fa-twitter rounded-pill shadow text-white"></i> Sign Up with Twitter</a>
+						</div>
+						<p class="or-sep">OR</p>
+						<form autocomplete="off">
+							<div class="form-group">
+								<input type="text" class="form-control bg-light" placeholder="Your email address" name="signup_email">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control bg-light" placeholder="Your password" name="signup_password">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control bg-light" placeholder="Your Conform password" name="signup_conform_password">
+							</div>
+							<div class="form-group text-center mb-3 mt-4 check-types">
+								<label for="signupcheck">
+									<input type="checkbox" id="signupcheck">
+									<span class="cbx rounded-pill float-none d-inline-block align-middle">
+										<svg width="12px" height="11px" viewbox="0 0 12 11">
+											<polyline points="1 6.29411765 4.5 10 11 1"></polyline>
+										</svg>
+									</span>
+									<span class="float-none text-black-50">I agree to your <a href="#" class="text-primary">Terms and conditions</a> and <a href="#" class="text-primary">Privacy policy.</a></span>
+								</label>
+							</div>
+							<div class="text-center">
+								<div class="position-relative border-0 mt-md-0 mt-3 btn btn-primary submit-btn">
+									<i class="icon-login btn-icon input-icon"></i> Proceed
+									<input type="submit" class="h-100 w-100 position-absolute" value="Submit Review">
+								</div>
+							</div>
+							<div class="text-center pt-25">
+								<p>Forgot password? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#resetPassword" class="text-primary">Reset here</a></p>
+								<p>Already have an account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#exampleModal" class="text-primary">Sign in here</a></p>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="et-preloader"><div></div><div></div></div>
+
+	<!-- Scripts -->
+	<script src="js/4579-js-jquery-3.2.1.min.js"></script>
+	<script src="js/21-js-popper.min.js"></script>
+	<script src="js/426-js-bootstrap.min.js"></script>
+	<script src="js/989-js-owl.carousel.min.js"></script>
+	<script src="js/8089-js-hc-offcanvas-nav.js"></script>
+	<!--jQuery Nice Select -->
+	<script src="js/5935-js-jquery.nice-select.min.js"></script>
+	<!--Bootstrap DateTimePicker -->
+	<script src="js/4945-js-bootstrap-datetimepicker.min.js"></script>
+	<script src="js/6553-js-custom.js"></script>
+</body>
+</html>
